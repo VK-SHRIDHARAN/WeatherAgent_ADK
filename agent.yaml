@@ -1,0 +1,9 @@
+version: 2
+
+agent: agent.agent.WeatherAgent
+
+name: Weather Agent
+description: Provides weather information for a given city.
+
+tools:
+  - tools.weather_tool.WeatherTool
